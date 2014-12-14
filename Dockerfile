@@ -16,10 +16,7 @@ RUN mkdir /app && \
 	mkdir /mno && \
 	mkdir /mno/scripts && \
 	mkdir /mno/chef && \
-	mkdir /storage/app && \
-	mkdir /storage/app/data && \
-	mkdir /storage/app/log && \
-	mkdir /storage/var && \
-	mkdir /storage/var/log
+	mkdir /mno/chef/cache && \
+	mkdir /var/log/chef
 
 CMD ["/bin/bash"]
